@@ -8,7 +8,7 @@ nuget{
 		projectUrl: http://arma.sourceforge.net/;
 		iconUrl: http://arma.sourceforge.net/img/armadillo_icon.png;
 		description: Armadillo is a high quality linear algebra library for the C++ language aiming towards a good balance between speed and ease of use;
-		copyright: Copyright Conrad Sanderson, Ryan Curtin 2016-2017;
+		copyright: Copyright Conrad Sanderson 2017;
 		tags: {arma, native, nativepackage, armadillo, c, c++}
 	}
 	dependencies {
