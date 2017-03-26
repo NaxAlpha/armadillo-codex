@@ -9,8 +9,8 @@ nuget{
 		};
 	}
     files{
-        include:{"include\**\*"};
+        include:{"armadillo-7.800.2\include\**\*"};
         [x64]
-            lib:"build/Release/armadillo.lib";
+            lib:"armadillo-7.800.2/build/Release/armadillo.lib";
     }
 }
