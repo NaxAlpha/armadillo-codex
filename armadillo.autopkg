@@ -1,11 +1,15 @@
 nuget{
     nuspec{
         id=armadillo-code;
-        version: 7.900.1;
+        version: 7.800.2;
     }
     files{
         include:{"include\**\*"};
         [x64]
             lib:"build/Release/armadillo.lib";
+    dependencies {
+        packages : {
+            OpenBLAS/0.2.14.1
+        };
     }
 }
