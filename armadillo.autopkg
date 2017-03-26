@@ -1,16 +1,24 @@
 nuget{
-    nuspec{
-        id=armadillo-code;
-        version: 7.800.2;
-    }
+	nuspec{
+		id=armadillo-code;
+		version: 7.800.2;
+		title: Armadillo;
+		authors: {Conrad Sanderson, Ryan Curtin};
+		licenseUrl: http://arma.sourceforge.net/license.html;
+		projectUrl: http://arma.sourceforge.net/;
+		iconUrl: http://arma.sourceforge.net/img/armadillo_icon.png;
+		description: Armadillo is a high quality linear algebra library (matrix maths) for the C++ language, aiming towards a good balance between speed and ease of use;
+		copyright: Copyright Conrad Sanderson, Ryan Curtin 2016-2017;
+		tags: {arma, native, nativepackage, armadillo, c, c++}
+	}
 	dependencies {
 		packages : {
 			OpenBLAS/0.2.14.1
 		};
 	}
-    files{
-        include:{"armadillo-7.800.2\include\**\*"};
-        [x64]
-            lib:"armadillo-7.800.2/build/Release/armadillo.lib";
-    }
+	files{
+		include:{"armadillo-7.800.2\include\**\*"};
+		[x64]
+			lib:"armadillo-7.800.2/build/Release/armadillo.lib";
+	}
 }
