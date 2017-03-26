@@ -2,14 +2,10 @@ nuget{
 	nuspec{
 		id=armadillo-code;
 		version: 7.800.2;
-		title: Armadillo C++ Linear Algebra Library;
 		authors: {Conrad Sanderson, Ryan Curtin};
 		licenseUrl: http://arma.sourceforge.net/license.html;
 		projectUrl: http://arma.sourceforge.net/;
 		iconUrl: http://arma.sourceforge.net/img/armadillo_icon.png;
-		description: Armadillo is a high quality linear algebra library for the C++ language aiming towards a good balance between speed and ease of use;
-		copyright: Copyright Conrad Sanderson 2017;
-		tags: {arma, native, nativepackage, armadillo, c, c++}
 	}
 	dependencies {
 		packages : {
